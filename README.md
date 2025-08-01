@@ -83,35 +83,14 @@ Date:   Mon Jul 28 01:11:11 2025 -0400
 
 ---
 
-# hooks/post-breakup.sh
+## File Manifesto
 
-```bash
-#!/bin/bash
+Most of the baggage is unpacked. The `README.md` wept itself into shape, the `LICENSE` finally admitted its terms, and `.gothubignore` knows what not to talk about. The pipeline is breaking as expected.
 
-echo "Executing post-breakup hook..."
-git stash tears
-echo "Tears stashed. You'll cry later."
-rm -rf ./memories/*
-echo "Deleted shared memories. Disk space reclaimed."
-echo "Suggested commit message: 'chore: moved on (barely)'"
-notify-send "Breakup complete" "Time to update your .gothubignore."
-```
+You're not staring into the void anymore — it's versioned, linted, and documented.
 
----
-
-# .gothubignore
-
-```
-# Don’t track these memories
-*.ex
-old_photos/
-voicemails/
-love_letters.txt
-hopes_and_dreams.bin
-```
-
----
-
+Still, if something feels missing, it probably is.  
+Check the [commit history](https://github.com/Cod-e-Codes/.gothub/commits/main) for emotional context.
 ## License
 
 This project is licensed under the [Emotional Damage Clause License (EDCL)](LICENSE).  
