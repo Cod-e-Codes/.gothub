@@ -1,0 +1,64 @@
+#!/bin/bash
+
+echo "🖤 .gothub Emotional Readiness Check"
+echo "=================================="
+echo ""
+
+# Check if user is emotionally stable enough to commit
+echo "⚠️  Emotional check-in required before committing."
+echo ""
+
+# Ask for emotional state
+read -p "How are you feeling right now? (1-10, where 1=broken, 10=healed): " emotional_state
+
+if [ "$emotional_state" -lt 1 ] || [ "$emotional_state" -gt 10 ]; then
+    echo "❌ Invalid emotional state. Please try again."
+    exit 1
+fi
+
+if [ "$emotional_state" -le 3 ]; then
+    echo "😢 You seem to be in emotional distress."
+    read -p "Are you sure you want to commit in this state? (y/n): " choice
+    if [ "$choice" != "y" ]; then
+        echo "💔 Commit aborted. Go take a walk, drink some tea, or call a friend."
+        echo "Remember: It's okay to not be okay."
+        exit 1
+    fi
+    echo "💪 Proceeding with emotional damage. Stay strong."
+elif [ "$emotional_state" -le 6 ]; then
+    echo "😐 You're in a neutral state. Proceeding with caution."
+elif [ "$emotional_state" -ge 7 ]; then
+    echo "✨ You seem to be in a good place! This commit will be beautiful."
+fi
+
+echo ""
+echo "🔍 Checking for emotional keywords in commit message..."
+echo ""
+
+# Get the commit message
+COMMIT_MSG=$(cat "$1")
+
+# Check for emotional content
+EMOTIONAL_WORDS=("sad" "broken" "heart" "tears" "pain" "despair" "void" "existential" "dread" "cry" "hurt" "damage" "heal" "hope" "love" "joy" "peace")
+EMOTIONAL_COUNT=0
+
+for word in "${EMOTIONAL_WORDS[@]}"; do
+    if echo "$COMMIT_MSG" | grep -qi "$word"; then
+        EMOTIONAL_COUNT=$((EMOTIONAL_COUNT + 1))
+        echo "Found emotional word: $word"
+    fi
+done
+
+echo ""
+echo "Emotional intensity score: $EMOTIONAL_COUNT/${#EMOTIONAL_WORDS[@]}"
+
+if [ $EMOTIONAL_COUNT -eq 0 ]; then
+    echo "⚠️  Your commit message lacks emotional depth."
+    echo "Consider adding feelings to your commit message."
+    echo "Example: 'feat: added new feature (still broken inside)'"
+fi
+
+echo ""
+echo "✅ Emotional check complete. Proceeding with commit."
+echo "Remember: Every commit is a step forward, even if it's a small one."
+echo "" 
