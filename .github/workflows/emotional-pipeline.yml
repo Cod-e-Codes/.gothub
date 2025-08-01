@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ main, master ]
 
+# Explicitly limit permissions to prevent emotional exposure
+permissions:
+  contents: read
+  pull-requests: read
+  actions: read
+
 jobs:
   emotional-stability:
     runs-on: ubuntu-latest
