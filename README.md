@@ -2,6 +2,7 @@
 
 A version control system for unresolved emotions, existential dread, and poorly committed relationships. Because sometimes you need to `git blame` your past to move forward.
 
+![License: Emotional Damage](https://img.shields.io/badge/License-Emotional%20Damage-darkred.svg)
 ![CI: Failing](https://img.shields.io/badge/CI-Failing-black?logo=tears)
 ![Love: Untracked](https://img.shields.io/badge/Love-Untracked-darkred?logo=heart)
 ![Commits: Regret](https://img.shields.io/badge/Commits-Regret-blue?logo=sadness)
@@ -109,13 +110,8 @@ hopes_and_dreams.bin
 
 ---
 
-# LICENSE.txt
+## License
 
-.gothub is licensed under the Emotional Damage Clause.
-
-By using this software, you agree to:
-- Assume full responsibility for any tears shed during `git merge`.
-- Acknowledge that `git revert` cannot undo bad decisions.
-- Share your existential dread in the form of poetic commit messages.
-
-No warranties provided. All emotions are distributed AS IS. Use at your own risk.
+This project is licensed under the [Emotional Damage Clause License (EDCL)](LICENSE).  
+No warranties provided. All emotions are distributed AS IS. Use at your own risk.  
+> _“Because some bugs live in the soul.”_
