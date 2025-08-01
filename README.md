@@ -3,6 +3,8 @@
 A version control system for unresolved emotions, existential dread, and poorly committed relationships. Because sometimes you need to `git blame` your past to move forward.
 
 ![License: Emotional Damage](https://img.shields.io/badge/License-Emotional%20Damage-darkred.svg)
+[![Contributing Guidelines](https://img.shields.io/badge/Contributing-Guidelines-darkpurple.svg)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Friendly-darkgreen.svg)](CODE_OF_CONDUCT.md)
 ![CI: Failing](https://img.shields.io/badge/CI-Failing-black?logo=tears)
 ![Love: Untracked](https://img.shields.io/badge/Love-Untracked-darkred?logo=heart)
 ![Commits: Regret](https://img.shields.io/badge/Commits-Regret-blue?logo=sadness)

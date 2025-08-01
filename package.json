@@ -1,0 +1,98 @@
+{
+  "name": "gothub",
+  "version": "1.0.0",
+  "description": "A version control system for unresolved emotions, existential dread, and poorly committed relationships",
+  "main": "index.js",
+  "scripts": {
+    "cry": "make cry",
+    "test": "make test",
+    "heal": "make heal",
+    "clean": "make clean",
+    "despair": "make despair",
+    "dev": "make dev",
+    "build": "make build",
+    "deploy": "make deploy",
+    "lint": "make lint",
+    "format": "make format",
+    "backup": "make backup",
+    "restore": "make restore",
+    "reset": "make reset",
+    "postinstall": "echo 'Emotional dependencies installed. You are ready to feel.'"
+  },
+  "keywords": [
+    "git",
+    "emotions",
+    "heartbreak",
+    "version-control",
+    "existential-dread",
+    "terminal-punk",
+    "emotional-damage",
+    "unresolved-feelings"
+  ],
+  "author": "Wistful Coder <tears@null.dev>",
+  "license": "Emotional Damage Clause License (EDCL)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wistful-coder/.gothub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wistful-coder/.gothub/issues"
+  },
+  "homepage": "https://github.com/wistful-coder/.gothub#readme",
+  "dependencies": {
+    "sadness": "0.0.1",
+    "loneliness": "^1.0.0",
+    "existential-dread": "^2.1.0",
+    "broken-heart": "^3.0.0",
+    "unresolved-emotions": "^1.5.0",
+    "tear-storage": "^0.8.0",
+    "emotional-cache": "^1.2.0",
+    "heartbreak-framework": "^2.0.0"
+  },
+  "devDependencies": {
+    "emotional-linting": "^1.0.0",
+    "feeling-formatter": "^0.9.0",
+    "emotional-testing": "^1.1.0",
+    "trauma-debugger": "^0.7.0",
+    "healing-tools": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "bin": {
+    "gothub": "./bin/gothub.js"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "Makefile",
+    ".gothubignore",
+    "hooks/",
+    ".github/",
+    "bin/"
+  ],
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "test": "./test",
+    "hooks": "./hooks"
+  },
+  "config": {
+    "emotional_state": "melancholic",
+    "tear_storage": "unlimited",
+    "heartbreak_level": "moderate",
+    "existential_crisis": "ongoing"
+  }
+} 

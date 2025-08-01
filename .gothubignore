@@ -1,0 +1,133 @@
+# .gothubignore
+# Don't track these memories - they're too painful to version control
+
+# Personal emotional baggage
+*.ex
+old_photos/
+voicemails/
+love_letters.txt
+hopes_and_dreams.bin
+broken_promises.md
+unanswered_texts/
+deleted_contacts.vcf
+
+# Relationship artifacts
+shared_albums/
+couple_photos/
+anniversary_reminders/
+wedding_plans/
+divorce_papers.pdf
+
+# Emotional cache files
+.cache/tears/
+.temp/heartbreak/
+.stash/feelings/
+*.sad
+*.broken
+*.hurt
+
+# System emotional files
+.DS_Feelings
+Thumbs.depressed
+*.exe (emotional executables)
+*.dll (damaged love libraries)
+
+# IDE emotional settings
+.vscode/settings.json (contains emotional preferences)
+.idea/workspace.xml (contains emotional workspace)
+*.swp (emotional swap files)
+
+# Logs and debugging
+*.log (emotional logs)
+debug_tears.txt
+error_hearts.log
+crash_dump.emotional
+
+# Temporary emotional files
+*.tmp (temporary feelings)
+*.temp (temporary heartbreak)
+*.bak (emotional backups)
+
+# Build artifacts
+dist/ (distributed sadness)
+build/ (built-up emotions)
+node_modules/ (modular loneliness)
+__pycache__/ (cached pain)
+
+# Environment files
+.env (environmental damage)
+.env.local (local emotional damage)
+.env.production (production emotional damage)
+
+# Documentation that's too personal
+personal_notes.md
+therapy_notes.txt
+diary_entries/
+private_thoughts/
+
+# Media that triggers memories
+*.mp3 (songs that remind you of them)
+*.mp4 (videos of better times)
+*.jpg (photos that hurt to look at)
+*.png (pictures that make you cry)
+
+# Configuration files with emotional settings
+emotional_config.json
+heart_settings.yml
+soul_preferences.toml
+
+# Backup files
+*.backup (emotional backups)
+*.old (old feelings)
+*.orig (original emotional state)
+
+# Lock files (locked emotions)
+package-lock.json
+yarn.lock
+poetry.lock
+
+# Coverage reports (emotional coverage)
+coverage/
+.nyc_output/
+*.lcov
+
+# Test artifacts
+test_results/
+emotional_test_output/
+*.test.log
+
+# Dependencies that bring emotional baggage
+node_modules/sadness/
+node_modules/loneliness/
+node_modules/heartbreak/
+
+# Git emotional files
+.git/emotional_damage/
+.git/tears/
+.git/broken_hearts/
+
+# IDE emotional files
+.vscode/emotional_settings.json
+.idea/emotional_workspace.xml
+
+# OS emotional files
+.DS_Store (emotional system files)
+Thumbs.db (emotional thumbnails)
+
+# Archive files (archived feelings)
+*.zip (zipped emotions)
+*.tar.gz (compressed sadness)
+*.rar (rare emotional states)
+
+# Database files (emotional databases)
+*.db (emotional database)
+*.sqlite (emotional SQLite)
+*.sql (emotional queries)
+
+# Certificate files (emotional certificates)
+*.pem (emotional certificates)
+*.key (emotional keys)
+*.crt (emotional certificates)
+
+# Remember: Some things are better left untracked
+# Your emotional journey is valid, but not everything needs to be version controlled 
