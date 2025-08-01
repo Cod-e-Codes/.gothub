@@ -132,35 +132,7 @@ Got a commit message that perfectly captures your emotional state?
 Share it with `#dotGothub` on Twitter or wherever you rant about code and life.  
 Let's build a community of beautifully broken devs.
 
----
-
-# commit_log.txt
-
-```
-commit f34dbeef
-Author: Wistful Coder <tears@null.dev>
-Date:   Fri Aug 01 02:13:37 2025 -0400
-
-    fix(me): patched self-esteem leak, still unstable
-
-commit de1e7ed
-Author: Wistful Coder <tears@null.dev>
-Date:   Thu Jul 31 23:59:59 2025 -0400
-
-    chore(heart): reindexed shattered hopes, added .gothubignore
-
-commit b4d1dea
-Author: Wistful Coder <tears@null.dev>
-Date:   Wed Jul 30 04:20:00 2025 -0400
-
-    feat(breakup): implemented git stash tears, sobbed during code review
-
-commit a5h3s0l
-Author: Wistful Coder <tears@null.dev>
-Date:   Mon Jul 28 01:11:11 2025 -0400
-
-    revert: undid trust.exe, caused fatal runtime errors
-```
+📜 Every commit is a confession. Read them, if you must: [commit_log.txt](commit_log.txt).
 
 ---
 
