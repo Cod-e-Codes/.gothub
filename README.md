@@ -7,9 +7,7 @@ A version control system for unresolved emotions, existential dread, and poorly 
 ![Commits: Regret](https://img.shields.io/badge/Commits-Regret-blue?logo=sadness)
 ![Therapist Required](https://img.shields.io/badge/Therapist-Required-darkpurple?logo=couch&title=patches%20not%20found)
 
-### 📸 Screenshot from the void
-
-![Screenshot of a moment better left uncommitted](.gothub/Screenshot_20250801_081634_Chrome.jpg)
+![Screenshot of a moment better left uncommitted](Screenshot_20250801_081634_Chrome.jpg)
 
 > _“I uploaded a feeling. Git refused to track it.”_
 
